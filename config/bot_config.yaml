@@ -1,1 +1,24 @@
-
+# config/bot_config.yaml
+bot:
+  name: "Roastify Pro"
+  username: "roastify_bot"
+  rate_limit:
+    per_user: 30
+    per_minute: 100
+    burst: 150
+  
+  features:
+    image_generation: true
+    live_streaming: true
+    group_management: true
+    auto_moderation: true
+  
+  templates:
+    total: 56
+    categories:
+      - cartoon_roast
+      - neon_savage
+      - dark_sarcastic
+      - minimal_mock
+      - poster_style
+      - vip_exclusive
